@@ -63,11 +63,11 @@ const fetchNews = async (
 		}
 	);
 
-	console.log(
+	/* 	console.log(
 		'LOADING NEW DATA FROM API for category >>> ',
 		category,
 		keywords
-	);
+	); */
 
 	const newsResponse = await res.json();
 
